@@ -39,7 +39,7 @@ function SendMail({ complaintHead, email, category, isUserSigned }) {
 
         try{
           async function sendData(){
-            const response = await axios.post("https://vitbhopalhostel-default-rtdb.firebaseio.com/userData.json",{...userData})
+            const response = await axios.post("https://hostel-management-davv-default-rtdb.firebaseio.com",{...userData})
             console.log(response);
           }
           sendData();
