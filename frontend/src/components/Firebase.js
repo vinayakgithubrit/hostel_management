@@ -6,13 +6,13 @@ import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAEePxqEPmUxZFfJ-hu1dYa4Y28EQv51Og",
-  authDomain: "vitbhopalhostel.firebaseapp.com",
-  projectId: "vitbhopalhostel",
-  storageBucket: "vitbhopalhostel.appspot.com",
-  messagingSenderId: "507203476252",
-  appId: "1:507203476252:web:7afff585105c167293b8d9",
-  measurementId: "G-K7WWFXKR86",
+  apiKey: "AIzaSyCfQSLXtv2jvSZ3LpvsdZYS4u30rCpUnAQ",
+  authDomain: "hostel-management-davv.firebaseapp.com",
+  projectId: "hostel-management-davv",
+  storageBucket: "hostel-management-davv.appspot.com",
+  messagingSenderId: "300484055876",
+  appId: "1:300484055876:web:31725547c60f9b9884fd11",
+  measurementId: "G-9J2JTQS3KW"
 };
 
 const app = firebase.initializeApp(firebaseConfig);
